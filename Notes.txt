@@ -1,0 +1,19 @@
+﻿
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+dotnet add package Npgsql.EntityFrameworkCore.SQLServer
+dotnet add package Npgsql.EntityFrameworkCore.Tools
+
+dotnet add package EFCore.NamingConventions
+
+
+
+dotnet tool install --global dotnet-ef
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.Relational
+dotnet add package Microsoft.EntityFrameworkCore
+
+
+dotnet-ef migration add init -> generate migration file
+
+dotnet-ef database update -> apply migration to database
