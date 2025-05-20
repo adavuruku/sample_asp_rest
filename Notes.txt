@@ -23,6 +23,8 @@ dotnet-ef database update -> apply migration to database
 
 https://www.youtube.com/watch?v=J1VuY2owXo4&list=PL82C6-O4XrHfrGOCPmKmwTO7M0avXyQKc&index=13
 
+https://github.com/teddysmithdev/FinShark/blob/master/api/Data/ApplicationDBContext.cs
+
 
 {
   "username": "sherif",
