@@ -21,6 +21,8 @@ dotnet ef migrations remove -> REVERT THE Last migration
 
 dotnet-ef database update -> apply migration to database
 
+https://www.youtube.com/watch?v=J1VuY2owXo4&list=PL82C6-O4XrHfrGOCPmKmwTO7M0avXyQKc&index=13
+
 
 {
   "username": "sherif",
