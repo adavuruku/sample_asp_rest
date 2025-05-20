@@ -1,58 +1,209 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dbconfig\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dbconfig\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\bookstoreapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:bookstoreapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\dbcofig\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dbcofig\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\dto\\bookquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\bookquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\migrations\\20250515204823_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:migrations\\20250515204823_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\migrations\\20250515204823_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:migrations\\20250515204823_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dbconfig\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dbconfig\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\source\\repos\\bookstoreapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\repository\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:repository\\portfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\repository\\interfaces\\iportfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:repository\\interfaces\\iportfoliorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\repository\\interfaces\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:repository\\interfaces\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\services\\fmpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:services\\fmpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\extensions\\claimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:extensions\\claimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\bookstoreapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:bookstoreapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\mappers\\stockmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:mappers\\stockmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\mappers\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:mappers\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\stock\\updatestockrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\stock\\updatestockrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\stock\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\stock\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\stock\\fmpstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\stock\\fmpstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\stock\\createstockrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\stock\\createstockrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\comment\\updatecommentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\comment\\updatecommentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\comment\\createcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\comment\\createcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\comment\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\comment\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\account\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\account\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\account\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\account\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\dto\\bookquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:dto\\bookquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\repository\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:repository\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\model\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:model\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\model\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:model\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\repository\\interfaces\\ifmpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:repository\\interfaces\\ifmpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\repository\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:repository\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\helpers\\queryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:helpers\\queryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\helpers\\commentqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:helpers\\commentqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\migrations\\20250515204823_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:migrations\\20250515204823_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|c:\\users\\user\\documents\\github\\sample_asp_rest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D444777-65DE-45B9-A74D-229F78DCF151}|BookStoreApi.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\BookStoreApi\\Controllers\\BooksController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,93 +213,587 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-15T18:21:34.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\DbCofig\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DbCofig\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\DbCofig\\AppDbContext.cs",
-              "RelativeToolTip": "DbCofig\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "20250515204823_Init.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Migrations\\20250515204823_Init.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250515204823_Init.Designer.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Migrations\\20250515204823_Init.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250515204823_Init.Designer.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:53:54.846Z",
+              "WhenOpened": "2025-05-20T00:37:17.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250515204823_Init.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Migrations\\20250515204823_Init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250515204823_Init.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Migrations\\20250515204823_Init.cs",
-              "RelativeToolTip": "Migrations\\20250515204823_Init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwBIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T20:50:36.176Z",
+              "WhenOpened": "2025-05-20T00:37:10.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Notes.txt",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Notes.txt",
-              "RelativeDocumentMoniker": "Notes.txt",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Notes.txt",
-              "RelativeToolTip": "Notes.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-15T20:55:51.671Z",
+              "DocumentIndex": 7,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\DbConfig\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "DbConfig\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\DbConfig\\AppDbContextFactory.cs",
+              "RelativeToolTip": "DbConfig\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:24:06.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:44:53.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-15T18:18:25.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\DbConfig\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DbConfig\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\DbConfig\\AppDbContext.cs",
+              "RelativeToolTip": "DbConfig\\AppDbContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:53:54.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Model\\AppUser.cs",
+              "RelativeDocumentMoniker": "Model\\AppUser.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Model\\AppUser.cs",
+              "RelativeToolTip": "Model\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:06:27.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T18:21:40.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Notes.txt",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Notes.txt",
+              "RelativeDocumentMoniker": "Notes.txt",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Notes.txt",
+              "RelativeToolTip": "Notes.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-15T20:55:51.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\StockRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\StockRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\StockRepository.cs",
+              "RelativeToolTip": "Repository\\StockRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:43:41.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-19T23:39:49.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:49:11.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\BookRepository.cs",
+              "RelativeToolTip": "Repository\\BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T22:13:46.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\CommentRepository.cs",
+              "RelativeToolTip": "Repository\\CommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:40:59.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PortfolioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\PortfolioRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PortfolioRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\PortfolioRepository.cs",
+              "RelativeToolTip": "Repository\\PortfolioRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:42:50.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPortfolioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\Interfaces\\IPortfolioRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IPortfolioRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\Interfaces\\IPortfolioRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IPortfolioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:03:20.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\Interfaces\\IStockRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IStockRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\Interfaces\\IStockRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IStockRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:04:22.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\StockController.cs",
+              "RelativeToolTip": "Controllers\\StockController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:47:28.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:46:47.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:45:46.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:33:59.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FMPService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Services\\FMPService.cs",
+              "RelativeDocumentMoniker": "Services\\FMPService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Services\\FMPService.cs",
+              "RelativeToolTip": "Services\\FMPService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:32:07.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StockMappers.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Mappers\\StockMappers.cs",
+              "RelativeDocumentMoniker": "Mappers\\StockMappers.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Mappers\\StockMappers.cs",
+              "RelativeToolTip": "Mappers\\StockMappers.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:22:20.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClaimsExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Extensions\\ClaimsExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ClaimsExtensions.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Extensions\\ClaimsExtensions.cs",
+              "RelativeToolTip": "Extensions\\ClaimsExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:19:35.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAqwAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:35:29.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookStoreApi.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj",
+              "RelativeDocumentMoniker": "BookStoreApi.csproj",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj",
+              "RelativeToolTip": "BookStoreApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T18:42:36.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CommentMapper.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Mappers\\CommentMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\CommentMapper.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Mappers\\CommentMapper.cs",
+              "RelativeToolTip": "Mappers\\CommentMapper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:21:15.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Model\\Book.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Model\\Book.cs",
               "RelativeDocumentMoniker": "Model\\Book.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Model\\Book.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Model\\Book.cs",
               "RelativeToolTip": "Model\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T19:49:29.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 28,
+              "Title": "UpdateStockRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Stock\\UpdateStockRequestDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Stock\\UpdateStockRequestDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Stock\\UpdateStockRequestDto.cs",
+              "RelativeToolTip": "Dto\\Stock\\UpdateStockRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:17:45.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StockDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Stock\\StockDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Stock\\StockDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Stock\\StockDto.cs",
+              "RelativeToolTip": "Dto\\Stock\\StockDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:17:15.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FMPStock.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Stock\\FMPStock.cs",
+              "RelativeDocumentMoniker": "Dto\\Stock\\FMPStock.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Stock\\FMPStock.cs",
+              "RelativeToolTip": "Dto\\Stock\\FMPStock.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAzwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:16:42.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateStockRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Stock\\CreateStockRequestDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Stock\\CreateStockRequestDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Stock\\CreateStockRequestDto.cs",
+              "RelativeToolTip": "Dto\\Stock\\CreateStockRequestDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:15:46.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UpdateCommentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Comment\\UpdateCommentRequestDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Comment\\UpdateCommentRequestDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Comment\\UpdateCommentRequestDto.cs",
+              "RelativeToolTip": "Dto\\Comment\\UpdateCommentRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:15:10.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateCommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Comment\\CreateCommentDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Comment\\CreateCommentDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Comment\\CreateCommentDto.cs",
+              "RelativeToolTip": "Dto\\Comment\\CreateCommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:14:29.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Comment\\CommentDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Comment\\CommentDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Comment\\CommentDto.cs",
+              "RelativeToolTip": "Dto\\Comment\\CommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:14:02.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Account\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Account\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Account\\RegisterDto.cs",
+              "RelativeToolTip": "Dto\\Account\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:13:05.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NewUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Account\\NewUserDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Account\\NewUserDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Account\\NewUserDto.cs",
+              "RelativeToolTip": "Dto\\Account\\NewUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:12:29.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Account\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Account\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\Account\\LoginDto.cs",
+              "RelativeToolTip": "Dto\\Account\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:11:37.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:10:05.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IFMPService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\Interfaces\\IFMPService.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IFMPService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\Interfaces\\IFMPService.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IFMPService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:05:25.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\Interfaces\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\ICommentRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Repository\\Interfaces\\ICommentRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\ICommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:58:15.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Model\\Comment.cs",
+              "RelativeDocumentMoniker": "Model\\Comment.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Model\\Comment.cs",
+              "RelativeToolTip": "Model\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:17:45.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Portfolio.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Model\\Portfolio.cs",
+              "RelativeDocumentMoniker": "Model\\Portfolio.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Model\\Portfolio.cs",
+              "RelativeToolTip": "Model\\Portfolio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:37:24.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Model\\Stock.cs",
+              "RelativeDocumentMoniker": "Model\\Stock.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Model\\Stock.cs",
+              "RelativeToolTip": "Model\\Stock.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:16:21.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "BookQueryDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Dto\\BookQueryDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\BookQueryDto.cs",
               "RelativeDocumentMoniker": "Dto\\BookQueryDto.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Dto\\BookQueryDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Dto\\BookQueryDto.cs",
               "RelativeToolTip": "Dto\\BookQueryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -157,81 +802,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\repository\\BookRepository.cs",
-              "RelativeDocumentMoniker": "repository\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\repository\\BookRepository.cs*",
-              "RelativeToolTip": "repository\\BookRepository.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBIAAABVAAAAAAAAAA==",
+              "DocumentIndex": 45,
+              "Title": "QueryObject.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Helpers\\QueryObject.cs",
+              "RelativeDocumentMoniker": "Helpers\\QueryObject.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Helpers\\QueryObject.cs",
+              "RelativeToolTip": "Helpers\\QueryObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T22:13:46.76Z",
+              "WhenOpened": "2025-05-19T23:00:43.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 46,
+              "Title": "CommentQueryObject.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Helpers\\CommentQueryObject.cs",
+              "RelativeDocumentMoniker": "Helpers\\CommentQueryObject.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Helpers\\CommentQueryObject.cs",
+              "RelativeToolTip": "Helpers\\CommentQueryObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:00:02.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250515204823_Init.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Migrations\\20250515204823_Init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250515204823_Init.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Migrations\\20250515204823_Init.cs",
+              "RelativeToolTip": "Migrations\\20250515204823_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:50:36.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\BookStoreApi\\Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\BookStoreApi\\Controllers\\BooksController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwHgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:40:44.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:40:44.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookStoreApi",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\BookStoreApi.csproj",
-              "RelativeDocumentMoniker": "BookStoreApi.csproj",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\BookStoreApi.csproj",
-              "RelativeToolTip": "BookStoreApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-15T18:42:36.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 49,
               "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\WeatherForecast.cs",
               "RelativeToolTip": "WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:16:21.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:16:21.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 47,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:15:48.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\BookStoreApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-15T18:21:40.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:15:48.522Z"
             }
           ]
         }

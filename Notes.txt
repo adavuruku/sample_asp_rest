@@ -14,6 +14,16 @@ dotnet add package Microsoft.EntityFrameworkCore.Relational
 dotnet add package Microsoft.EntityFrameworkCore
 
 
-dotnet-ef migration add init -> generate migration file
+dotnet-ef migrations add <choose_name_for_migration> -> generate migration file
+dotnet-ef migrations add init
+
+dotnet ef migrations remove -> REVERT THE Last migration
 
 dotnet-ef database update -> apply migration to database
+
+
+{
+  "username": "sherif",
+  "email": "sherif@example.com",
+  "password": "Sherif123456!"
+}
