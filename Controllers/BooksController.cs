@@ -1,9 +1,12 @@
 ﻿using BookStoreApi.DbConfig;
 using BookStoreApi.Dto;
+using BookStoreApi.KafkaConfig;
 using BookStoreApi.Model;
 using BookStoreApi.repository;
+using BookStoreApi.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 using static System.Reflection.Metadata.BlobBuilder;
 
 namespace BookStoreApi.Controllers
@@ -14,10 +17,19 @@ namespace BookStoreApi.Controllers
     {
         private readonly AppDbContext _context;
         
+        // kafka
+        private readonly KafkaProducerConfig _kafkaProducerConfig;
 
-        public BooksController(AppDbContext context)
+        private readonly RedisService _redisService;
+
+        //
+
+
+        public BooksController(AppDbContext context, KafkaProducerConfig kafkaProducerConfig, RedisService redisService)
         {
             _context = context;
+            _kafkaProducerConfig = kafkaProducerConfig;
+            _redisService = redisService;
         }
 
         [HttpGet]
@@ -36,7 +48,16 @@ namespace BookStoreApi.Controllers
           {
               _context.Books.Add(book);
               await _context.SaveChangesAsync();
-              return CreatedAtAction(nameof(GetBook), new { id = book.Id }, book);
+
+            //await _kafkaProducerConfig.ProduceAsync("Transaction.events", JsonSerializer.Serialize(book));
+
+            await _redisService.SetValueAsync("new_book", JsonSerializer.Serialize(book));
+            await _redisService.SetHashFieldAsync("new_book_hash", "#bookHash" ,JsonSerializer.Serialize(book));
+
+            // 4. Call your method to set a value with expiration (e.g., 10 minutes)
+            await _redisService.SetValueWithExpirationAsync("booky_" + book.Id, JsonSerializer.Serialize(book), TimeSpan.FromMinutes(1));
+
+            return CreatedAtAction(nameof(GetBook), new { id = book.Id }, book);
           }
 
           [HttpPut("{id}")]

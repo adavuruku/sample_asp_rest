@@ -1,14 +1,18 @@
 using BookStoreApi.DbConfig;
+using BookStoreApi.KafkaConfig;
 using BookStoreApi.Model;
 using BookStoreApi.repository;
 using BookStoreApi.Repository;
 using BookStoreApi.Repository.Interfaces;
 using BookStoreApi.Services;
+using Hangfire;
+using Hangfire.PostgreSql;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -100,6 +104,7 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IPortfolioRepository, PortfolioRepository>();
 builder.Services.AddScoped<IFMPService, FMPService>();
 builder.Services.AddHttpClient<IFMPService, FMPService>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
 
 
 //builder.WebHost.ConfigureKestrel(options =>
@@ -113,7 +118,48 @@ builder.Services.AddScoped<BookRepository>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
+/**
+ * 
+ * Hang Fire Configuration for Cron Jobs
+ * 
+ * Note app.UseHangfireDashboard(); //enable hangfire dashboard at /handfire
+ * 
+ */
+builder.Services.AddHostedService<KafkaConsumerConfig>();
+builder.Services.AddSingleton<KafkaProducerConfig>();
+
+//builder.Services.AddHangfire(config =>
+//    config.UseInMemoryStorage()); // or UseSqlServerStorage("...")
+
+builder.Services.AddHangfire(config =>
+    config.UsePostgreSqlStorage(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        new PostgreSqlStorageOptions
+        {
+            SchemaName = "public",
+            PrepareSchemaIfNecessary = true
+        }));
+
+
+builder.Services.AddHangfireServer();
+
+
+/**
+ * ADD Redis connection
+ */
+// Register the Redis connection multiplexer as a singleton
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+{
+    var configuration = builder.Configuration.GetConnectionString("Redis");
+    return ConnectionMultiplexer.Connect(configuration);
+});
+
+
+builder.Services.AddTransient<RedisService>();
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -136,5 +182,12 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseHangfireDashboard(); //enable hangfire dashboard
+
+RecurringJob.AddOrUpdate<CronJobService>(
+    "job-id",
+    service => service.RunJob(),
+    Cron.Minutely);
 
 app.Run();

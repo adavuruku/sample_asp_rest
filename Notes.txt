@@ -31,3 +31,56 @@ https://github.com/teddysmithdev/FinShark/blob/master/api/Data/ApplicationDBCont
   "email": "sherif@example.com",
   "password": "Sherif123456!"
 }
+
+
+# for cron jobs use
+
+Hangfire ->	Cron + retries + persistence + dashboard	Want a full-featured, production-ready tool
+Quartz	-> Lightweight, pure Cron control	Want fine control with minimal overhead
+
+
+dotnet add package Quartz
+dotnet add package Quartz.Extensions.Hosting
+
+
+dotnet add package Hangfire
+dotnet add package Hangfire.AspNetCore
+
+//install handfire memory
+
+dotnet add package Hangfire.PostgreSql
+dotnet add package Hangfire.MemoryStorage //to use inMemory
+http://localhost:5183/hangfire/recurring -> dashboard
+
+you can use with redis
+
+dotnet add package Hangfire.Redis.StackExchange
+
+
+using Hangfire.Redis;
+
+var redisConnectionString = builder.Configuration.GetConnectionString("Redis");
+
+builder.Services.AddHangfire(configuration => 
+    configuration.UseRedisStorage(redisConnectionString));
+
+
+    //REDIS CONFIG
+
+    dotnet add package StackExchange.Redis
+
+
+    // DI scopes
+
+    AddSingleTon -> one instance for entire app life cycle
+
+    AddTransient -> new instance per http request, and per injection 
+
+    AddScoped -> new instance per request
+
+
+    Singleton: Cache, configuration, logging providers.
+
+Scoped: Entity Framework DbContext, Unit of Work.
+
+Transient: Email sender, lightweight helpers.

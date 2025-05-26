@@ -1,16 +1,34 @@
-﻿using Microsoft.EntityFrameworkCore; // Needed for FromSqlRaw and ExecuteSqlRawAsync
-using BookStoreApi.DbConfig;
+﻿using BookStoreApi.DbConfig;
+using BookStoreApi.KafkaConfig;
 using BookStoreApi.Model;
+using BookStoreApi.Repository.Interfaces;
+using Microsoft.EntityFrameworkCore; // Needed for FromSqlRaw and ExecuteSqlRawAsync
 
 namespace BookStoreApi.repository
 {
-    public class BookRepository
+    public class BookRepository: IBookRepository
     {
         private readonly AppDbContext _context;
+        private readonly ILogger<BookRepository> _logger;
 
-        public BookRepository(AppDbContext context)
+        public BookRepository(AppDbContext context, ILogger<BookRepository> logger)
         {
             _context = context;
+            _logger = logger;
+        }
+
+        public async Task<List<Book>> GetAllAsync()
+        {
+            _logger.LogInformation("Executing CRON JOB");
+            var books = await _context.Books.ToListAsync();
+
+            // Log to console
+            foreach (var book in books)
+            {
+                _logger.LogInformation($"Id: {book.Id}, Book: {book.Title}, Author: {book.Author}");
+            }
+
+            return books;
         }
 
         public async Task<IEnumerable<Book>> GetByAuthorAsync(string author)
