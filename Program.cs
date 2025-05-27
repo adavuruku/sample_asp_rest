@@ -1,3 +1,5 @@
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 using BookStoreApi.DbConfig;
 using BookStoreApi.KafkaConfig;
 using BookStoreApi.Model;
@@ -13,6 +15,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
+using BookStoreApi.ExceptionAdvice;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -158,8 +162,21 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
 
 builder.Services.AddTransient<RedisService>();
 
+
+builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+
+builder.Services.Configure<RequestLocalizationOptions>(options =>
+{
+    var supportedCultures = new[] { new CultureInfo("en"), new CultureInfo("fr") };
+
+    options.DefaultRequestCulture = new RequestCulture("en");
+    options.SupportedCultures = supportedCultures;
+    options.SupportedUICultures = supportedCultures;
+});
+
 var app = builder.Build();
 
+app.UseRequestLocalization();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -184,6 +201,8 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.UseHangfireDashboard(); //enable hangfire dashboard
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 RecurringJob.AddOrUpdate<CronJobService>(
     "job-id",

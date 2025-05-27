@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+              xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="xml:space" default="preserve"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, ...</value>
+  </resheader>
+
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, ...</value>
+  </resheader>
+
+  <data name="AdviceNotFound" xml:space="preserve">
+    <value>Advice with ID {0} not found</value>
+    <comment>Displayed when advice is not found</comment>
+  </data>
+
+  <data name="InvalidTitle" xml:space="preserve">
+    <value>Title is required</value>
+    <comment>Displayed when title field is missing</comment>
+  </data>
+
+  <data name="BookNotFound" xml:space="preserve">
+    <value>Book with ID {0} not found</value>
+    <comment>Displayed when book is not found</comment>
+  </data>
+
+  <data name="MessageFound" xml:space="preserve">
+    <value>Book with ID {0} and Author {1}</value>
+    <comment>Book details</comment>
+  </data>
+
+</root>

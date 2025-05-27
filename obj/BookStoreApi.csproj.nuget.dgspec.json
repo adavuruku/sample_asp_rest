@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj": {}
+    "c:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj": {
+    "c:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj",
+        "projectUniqueName": "c:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj",
         "projectName": "BookStoreApi",
-        "projectPath": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj",
+        "projectPath": "c:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\obj\\",
+        "outputPath": "c:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,6 +93,10 @@
               "version": "[9.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Localization": {
               "target": "Package",
               "version": "[9.0.5, )"
             },

@@ -19,6 +19,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.Design": "9.0.5",
           "Microsoft.EntityFrameworkCore.Relational": "9.0.5",
+          "Microsoft.Extensions.Localization": "9.0.5",
           "Microsoft.IdentityModel.Tokens": "8.10.0",
           "Newtonsoft.Json": "13.0.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
@@ -28,6 +29,11 @@
         },
         "runtime": {
           "BookStoreApi.dll": {}
+        },
+        "resources": {
+          "en/BookStoreApi.resources.dll": {
+            "locale": "en"
+          }
         }
       },
       "Confluent.Kafka/2.10.0": {
@@ -838,6 +844,28 @@
           }
         }
       },
+      "Microsoft.Extensions.Localization/9.0.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Localization.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Options": "9.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Localization.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.22904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/9.0.5": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.22904"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/9.0.5": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.5",
@@ -1512,6 +1540,20 @@
       "sha512": "sha512-R6OeFrKxq3kAP/r7Uz5By8QUKnvS7ah/ubM/xbSRfGoyftCTzn4Gd9CZMW+9G67tHR3UX+sZXcjDacD7CFG9Bg==",
       "path": "microsoft.extensions.identity.stores/8.0.5",
       "hashPath": "microsoft.extensions.identity.stores.8.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization/9.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iqno5dLEXwpviGkm8Dl+ldqjAKAQf3zAx6AfPDnic3uUUTDeYtQ8Jqs4PiVFkuO1M7TOOAOXFa6dxoj56MDo6g==",
+      "path": "microsoft.extensions.localization/9.0.5",
+      "hashPath": "microsoft.extensions.localization.9.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization.Abstractions/9.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zCS+W4FyyzAyUbE72ltvaukBLBm5t83MFHWKRmijLphAAjC8XGT/mVsGQTHTHHFPkrksI2tplDuIAoYQc9GT9A==",
+      "path": "microsoft.extensions.localization.abstractions/9.0.5",
+      "hashPath": "microsoft.extensions.localization.abstractions.9.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/9.0.5": {
       "type": "package",

@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 using static System.Reflection.Metadata.BlobBuilder;
+using Microsoft.Extensions.Localization;
+using BookStoreApi.Resources;
+using BookStoreApi.ExceptionAdvice;
 
 namespace BookStoreApi.Controllers
 {
@@ -20,16 +23,21 @@ namespace BookStoreApi.Controllers
         // kafka
         private readonly KafkaProducerConfig _kafkaProducerConfig;
 
+
+    
+    // redis
         private readonly RedisService _redisService;
 
-        //
+        //locallisation
+        private readonly IStringLocalizer<MessageController> _localizer;
 
 
-        public BooksController(AppDbContext context, KafkaProducerConfig kafkaProducerConfig, RedisService redisService)
+        public BooksController(AppDbContext context, KafkaProducerConfig kafkaProducerConfig, RedisService redisService, IStringLocalizer<MessageController> localizer)
         {
             _context = context;
             _kafkaProducerConfig = kafkaProducerConfig;
             _redisService = redisService;
+            _localizer = localizer;
         }
 
         [HttpGet]
@@ -40,7 +48,21 @@ namespace BookStoreApi.Controllers
           public async Task<ActionResult<Book>> GetBook(int id)
           {
               var book = await _context.Books.FindAsync(id);
-              return book is null ? NotFound() : Ok(book);
+              if (book == null){
+                // var msg = _localizer["BookNotFound", id];
+                var msg = _localizer["MessageFound", id, "Sherif"];
+                // throw new NotFoundException(msg);
+                throw new NotFoundException(HttpStatus.NotFound, msg);
+                // return NotFound(new ProblemDetails
+                // {
+                //     Title = "Not Found",
+                //     Status = 404,
+                //     Detail = msg.Value, // ✅ Localized string
+                //     Instance = HttpContext.Request.Path
+                // });
+              }
+              throw new NotFoundException(HttpStatus.OK, nameof(book), book);
+            //   return Ok(book);
           }
 
           [HttpPost]
