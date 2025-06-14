@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q7KifJHJeuk=",
+  "dgSpecHash": "y8f8wTQdwos=",
   "success": true,
-  "projectFilePath": "c:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\GitHub\\sample_asp_rest\\BookStoreApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\confluent.kafka\\2.10.0\\confluent.kafka.2.10.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

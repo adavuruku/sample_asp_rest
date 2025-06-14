@@ -50,9 +50,12 @@ namespace BookStoreApi.Controllers
               var book = await _context.Books.FindAsync(id);
               if (book == null){
                 // var msg = _localizer["BookNotFound", id];
-                var msg = _localizer["MessageFound", id, "Sherif"];
+                // var msg = _localizer["MessageFound", id, "Sherif"];
+                // var msg = _localizer.GetString("MessageFound", [id, "Sherif"]);
+                // var msg = _localizer.GetString("MessageFound");
                 // throw new NotFoundException(msg);
-                throw new NotFoundException(HttpStatus.NotFound, msg);
+                // throw new NotFoundException(StatusCodes.Status404NotFound, msg);
+                throw new EClinicException(StatusCodes.Status404NotFound, "MessageFound", [id, "Sherif"]);
                 // return NotFound(new ProblemDetails
                 // {
                 //     Title = "Not Found",
@@ -61,7 +64,7 @@ namespace BookStoreApi.Controllers
                 //     Instance = HttpContext.Request.Path
                 // });
               }
-              throw new NotFoundException(HttpStatus.OK, nameof(book), book);
+              throw new EClinicException(StatusCodes.Status200OK, nameof(book), null, book);
             //   return Ok(book);
           }
 

@@ -68,7 +68,7 @@ builder.Services.AddHangfire(configuration =>
     //REDIS CONFIG
 
     dotnet add package StackExchange.Redis
-
+dotnet add package Confluent.Kafka
 
     // DI scopes
 
@@ -84,3 +84,13 @@ builder.Services.AddHangfire(configuration =>
 Scoped: Entity Framework DbContext, Unit of Work.
 
 Transient: Email sender, lightweight helpers.
+
+ROSTER-2027
+
+2032 and 2035 -> all merge yesterday.
+
+efcore bulk operation
+
+https://medium.com/codex/ef-core-bulk-insert-boost-your-performance-with-entity-framework-extensions-4df65e5415c4
+
+Install-Package EFCore.BulkExtensions

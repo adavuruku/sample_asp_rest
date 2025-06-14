@@ -11,4 +11,9 @@ public class ErrorResponse : ProblemDetails
     [JsonPropertyName("data")]
     [JsonPropertyOrder(1)]
     public object? Data { get; set; }
+
+    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    [JsonPropertyName("code")]
+    [JsonPropertyOrder(2)]
+    public object? Code { get; set; }
 }
